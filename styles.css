@@ -10,6 +10,9 @@ body {
   font-family: 'Playfair Display', serif;
   padding: 30px 37%;
   background: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1300px) {
@@ -26,7 +29,7 @@ body {
 
 @media (max-width: 600px) {
   body {
-    padding: 30px 5%;
+    padding: 30px 3%;
   }
 }
 
